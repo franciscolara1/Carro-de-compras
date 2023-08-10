@@ -1,0 +1,336 @@
+.navbar-brand{
+
+  font-size:40px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  font-family: 'Tourney', cursive;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.navbar-brand:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+.titulo{
+    margin-left: 1%;
+
+}
+.carro{
+    color:white;
+    font-size:40px;
+    position: relative;
+    
+}
+.carro:hover{
+    color:#ff5400;
+    transition:all 200ms;
+}
+.row > .card {
+    margin:40px;
+}
+.card-title{
+    margin-top: 40px;
+}
+.card-body{
+    
+    text-align: center;
+}
+.carrito{
+    border-style:solid;
+    border-color: black;
+    background-color:cadetblue;
+}
+.container .notify{
+    margin-right: 110px;
+}
+.borrar{
+    color:red;
+    margin-left:14px;
+    font-size:20px;
+}
+.borrar:hover{
+    color:white;
+}
+.cuenta{
+    background-color: red;
+    border-radius: 100%;
+    width:35px;
+    height: 30px;
+    padding-left: 8px;
+    position: absolute;
+    top:40px;
+    right: 290px;
+    
+}
+h4{
+margin-right: 11px;
+}
+.user{
+    color: white;
+    font-size: 33px;
+    
+}
+.user2{
+    color: white;
+    font-size: 33px;
+    position:relative;
+    right:160px;
+}
+.user2:hover{
+    color:#B22222;
+}
+.user:hover{
+    color:#B22222;
+}
+.home{
+    color:white;
+    font-size:40px;
+    
+}
+.home:hover{
+    color:green;
+    transition:all 200ms;
+}
+.principal{
+    margin-left: 32%;
+    margin-top: 80px;
+    width: 600px;
+    height: 400px;
+    /* Color gradient*/
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 30%, rgba(253,45,122,1) 100%);
+    
+}
+.posicion{
+    padding-top: 80px;
+    text-align: center;
+}
+.posicion > a{
+    color:blueviolet;
+    font-size:medium;
+}
+.posicion > a:hover{
+    color:hotpink;
+}
+#email{
+    margin-bottom: 20px;
+    position: relative;
+    left:35px;
+    
+}
+#contraseña{
+    margin-right: 80px;
+} 
+.go > .btn {
+    color:white;
+    position:relative;
+    top:20px;
+    
+}
+.usuario{
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    right:440px;
+    margin-top: 20px;
+}
+input:invalid{
+    border:3px solid red;
+}
+.posicion > label {
+    font-weight: bold;
+    font-family:monospace;
+    font-size: 18px;
+}
+
+/*------------- Formulario de registro  -------------*/
+
+#nombre1{
+    margin-bottom: 15px;
+    position:relative;
+    left:9px;
+    width: 250px;
+}
+#correo1{
+    margin-bottom: 15px;
+    position: relative;
+    left:9px;
+    width: 250px;
+}
+#contraseña1{
+    position: relative;
+    right:10px;
+    width:250px;
+}
+
+/* ---- Imagen de las Cards ------- */
+
+.carta{
+    width: 18rem;
+}
+.carta:hover{
+    width:19rem;
+    transition:500ms;
+}
+.instagram{
+    color: white;
+    font-size: 33px;
+    position:relative;
+    right:204px;
+    
+    
+}
+.instagram:hover{
+    
+    color:fuchsia;
+}
+.twitter{
+    color: white;
+    font-size: 33px;
+    position:relative;
+    right:204px;
+    
+}
+.twitter:hover{
+    
+    color:deepskyblue;
+}
+.wsp{
+    color: white;
+    font-size: 33px;
+    position:relative;
+    right:204px;
+    
+}
+.wsp:hover{
+    
+    color:#32de84;
+}
+.btn-success {
+    color: #fff;
+    background-color:#285e8e;
+    border-color: #357ebd; /*set the color you want here*/
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color:blueviolet;
+    border-color: #285e8e; /*set the color you want here*/
+}
+/* Carrousel */
+.carousel-inner > div > img {
+    width: 1000px;
+}
+
+.porta{
+    background-image: url("img/fondo.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 70vh;
+    padding-top:1px;
+    
+}
+.carousel{
+        position: static;
+        margin-top: 2%;
+        margin-bottom: 25%;
+        margin-right: auto;
+        margin-left: auto;
+        border-style:solid;
+        border-width: 1px;
+        width: 1000px;
+
+}
+.carousel-caption{
+    text-align: left;
+}
+.carousel-caption > h5{
+    font-size: 25px;
+    font-weight:500;
+    font-family:Verdana;
+    
+}
+.carousel-caption > h3 {
+    font-family:Verdana;
+    font-size:34px;
+    font-weight:500;
+}
+.carousel-caption > h3 > span {
+    position: relative;
+    right:10px;
+    bottom:5px;
+    font-size:16px;
+    background-color: #ff5400;
+    border-radius: 8px 8px 0;
+    padding: 6px 6px 5px 7px;
+    z-index: 2;
+}
+.filtro {
+    text-align: center;
+}
+.filtro > a{
+    text-decoration: none;
+    font-family: Consolas;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    background-color:#FF8C00;
+    padding: 20px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 13px;
+    border-color: white;
+    border-style:outset;
+}
+.filtro > a:hover{
+    background-color: #B22222;
+}
+
+/* ------------------------- NAVBAR ---------------- */
+#logo{
+    width: 90px;
+    position: absolute;
+    left:10%;
+    top:5%;
+    border-radius: 100%;
+    
+}
+.t-stroke {   
+    color: transparent;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #ffffff;
+} 
+.t-shadow { 
+    text-shadow: 7px 4px #ff5400;
+    
+}
+#nav2{
+    text-align: center;
+}
+#nav2 > section {
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav2 >section > a{
+    text-decoration: none;
+    font-family: barlow,arial,sans-serif;
+    margin:13px;
+    font-size: 18px;
+    color:darkgrey;
+}
+#nav2 >section > a:hover{
+    color:white;
+}
